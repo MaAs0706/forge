@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Hero({ onGetStarted }) {
   return (
     <section className="mx-auto flex min-h-[90vh] max-w-7xl items-center px-6">
       <div className="grid w-full gap-16 lg:grid-cols-2">
@@ -18,7 +18,10 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex gap-4">
-            <button className="rounded-lg bg-amber-600 px-6 py-3 font-medium transition hover:bg-amber-500">
+            <button 
+              onClick={(e) => onGetStarted(e)}
+              className="rounded-lg bg-[#D97706] px-6 py-3 font-medium text-white transition hover:bg-[#b46205]"
+            >
               Start Forging
             </button>
 
