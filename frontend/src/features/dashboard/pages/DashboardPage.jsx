@@ -96,6 +96,7 @@ Forge Workspace </h1>
         <h4 className="text-md font-bold text-zinc-200">
           Generate Project Pitch
         </h4>
+        
 
         <p className="text-xs text-zinc-400 leading-relaxed">
           Your project idea has been validated and your team structure is
